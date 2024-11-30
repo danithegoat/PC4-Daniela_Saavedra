@@ -129,7 +129,7 @@ st.markdown(f"<div style='text-align: justify; font-size: 19px;'>{texto_2}</div>
 
 # Ahora agregamos un video a mi blog donde explico algún tema de las clases
 # Agregamos un subtítulo
-st.markdown("<h2 style='text-align: center;'>Explicación de un tema de las clases 📚</h2>", unsafe_allow_html=True)
+st.markdown("<h2 style='text-align: center;'>Aquí debajo dejo constancia de que sé hacer y modificar un botón</h2>", unsafe_allow_html=True)
 # <h2 style='text-align: center;'>Explicación de un tema de las clases 📚</h2>: Esta es una cadena de código HTML
 # La etiqueta <h2> se utiliza para el encabezado secundario de una página web.
 # El texto está centrado (text-align: center;).
@@ -137,12 +137,12 @@ st.markdown("<h2 style='text-align: center;'>Explicación de un tema de las clas
 # unsafe_allow_html=True: Este es un argumento opcional en la función markdown.
 
 # Agregamos un video a la aplicación web ( menor a 20 MB)
-st.video("ga.mp4")
+#st.video("ga.mp4")
 # st.video("ppc-2024-1.mp4"): Esta línea está agregando un video a la aplicación web.
 
 
 # Agregamos un enlace a la página web donde está el video.
-enlace = f'<a href="https://drive.google.com/file/d/1CbCTv4EFV5G5XH7rOpIcPmjKr23Muojs/view?usp=drive_link" target="_blank"><button>Nombre creativo para el botón</button></a>'
+enlace = f'<a href="https://www.youtube.com/watch?v=u0XHVssfsYM" target="_blank"><button>Un video de gatitos lindos - click aquí</button></a>'
 st.markdown(enlace, unsafe_allow_html=True)
 # f'<a href="URL" target="_blank"><button>Nombre</button></a>':
 # La etiqueta <a> se utiliza para crear un enlace en HTML.
@@ -154,7 +154,7 @@ st.markdown(enlace, unsafe_allow_html=True)
 
 
 # Agregamos un subtítulo en la barra lateral
-sidebar.markdown("<h1 style='text-align: center;'>Aquí escribe un nombre creativo para presentar tus gráficos</h1>", unsafe_allow_html=True)
+sidebar.markdown("<h1 style='text-align: center;'>ESTOS SON MIS GRAFICOS FAVORITOS DEL CURSO <3</h1>", unsafe_allow_html=True)
 
 # <h1 style='text-align: center;'>Los análisis de Ellie</h1>: Esta es una cadena de código HTML.
 # La etiqueta <h1> se utiliza para el encabezado principal de una página web.
